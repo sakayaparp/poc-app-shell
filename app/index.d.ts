@@ -2,7 +2,7 @@ import * as React from 'react';
 import * as ReactRouter from 'react-router';
 import * as LibreAtom from '@libre/atom';
 
-declare module "app-shell" {
+declare module "@sakayaparp/poc-app-shell" {
   /**
    * Defines the API accessible from pilets.
    */
