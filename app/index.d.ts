@@ -40,7 +40,7 @@ declare module "app-shell" {
   /**
    * Custom Pilet API parts defined outside of piral-core.
    */
-  export interface PiletCustomApi extends PiletLocaleApi, PiletDashboardApi, PiletMenuApi, PiletNotificationsApi, PiletModalsApi, PiletFeedsApi, PiletContainersApi, PiralAuthApi {}
+  export interface PiletCustomApi extends PiletLocaleApi, PiletDashboardApi, PiletMenuApi, PiletNotificationsApi, PiletModalsApi, PiletFeedsApi, PiletContainersApi {}
 
   /**
    * Defines the Pilet API from piral-core.
@@ -256,13 +256,6 @@ declare module "app-shell" {
     createState<TState, TActions extends StateContainerReducers<TState>>(options: StateContainerOptions<TState, TActions>): StateContainer<TState, StateContainerActions<TActions>>;
   }
 
-  export interface PiralAuthApi {
-    /**
-     * Gets the currently authenticated user, if any.
-     */
-    getUser(): UserInfo | undefined;
-  }
-
   /**
    * Defines the shape of the data store for storing shared data.
    */
@@ -334,7 +327,6 @@ declare module "app-shell" {
    */
   export interface PiralCustomEventMap {
     "select-language": PiralSelectLanguageEvent;
-    "change-user": PiralChangeUserEvent;
   }
 
   /**
@@ -502,16 +494,6 @@ declare module "app-shell" {
   export type StateContainerReducers<TState> = {
     [name: string]: (dispatch: StateContainerReducer<TState>, ...args: any) => void;
   };
-
-  export interface UserInfo {
-    id: string;
-    firstName: string;
-    lastName: string;
-    mail: string;
-    language: string;
-    permissions: UserPermissions;
-    features: UserFeatures;
-  }
 
   /**
    * Defines the potential targets when storing data.
@@ -717,11 +699,6 @@ declare module "app-shell" {
     currentLanguage: string;
   }
 
-  export interface PiralChangeUserEvent {
-    previous: UserInfo;
-    current: UserInfo;
-  }
-
   export interface Translations {
     [tag: string]: string;
   }
@@ -806,10 +783,6 @@ declare module "app-shell" {
   export interface StateContainerReducer<TState> {
     (dispatch: StateDispatcher<TState>): void;
   }
-
-  export type UserPermissions = Record<string, any>;
-
-  export type UserFeatures = Record<string, boolean>;
 
   export type FirstParameter<T extends (arg: any) => any> = T extends (arg: infer P) => any ? P : never;
 
@@ -1022,10 +995,6 @@ declare module "app-shell" {
      * The relevant state for the registered containers.
      */
     containers: Record<string, any>;
-    /**
-     * The currently authenticated user, if any.
-     */
-    user: UserInfo | undefined;
   }
 
   /**
