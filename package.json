@@ -1,0 +1,53 @@
+{
+  "name": "poc-app-shell",
+  "description": "The App Shell - application to be deployed.",
+  "version": "1.0.0",
+  "keywords": [
+    "piral"
+  ],
+  "pilets": {
+    "files": [
+      {
+        "from": "files/.editorconfig",
+        "to": ".editorconfig"
+      },
+      {
+        "from": "files/prettier.config.js",
+        "to": "prettier.config.js"
+      }
+    ],
+    "externals": [],
+    "devDependencies": {},
+    "scripts": {}
+  },
+  "piralCLI": {
+    "version": "0.13.9",
+    "generated": true
+  },
+  "main": "./app/index.js",
+  "typings": "./app/index.d.ts",
+  "app": "./app/index.html",
+  "peerDependencies": {},
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-router": "latest",
+    "@types/react-router-dom": "latest",
+    "piral-cli": "^0.13.2",
+    "piral-cli-webpack": "^0.13.2",
+    "typescript": "latest",
+    "piral": "^0.13.2",
+    "piral-auth": "^0.13.9",
+    "piral-containers": "^0.13.2",
+    "@dbeining/react-atom": "4.1.21",
+    "@libre/atom": "1.3.3",
+    "history": "4.10.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-router": "5.2.1",
+    "react-router-dom": "5.3.0",
+    "tslib": "2.3.1",
+    "path-to-regexp": "0.1.7"
+  }
+}
