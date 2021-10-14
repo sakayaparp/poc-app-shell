@@ -1,7 +1,7 @@
 {
   "name": "poc-app-shell",
   "description": "The App Shell - application to be deployed.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "piral"
   ],
