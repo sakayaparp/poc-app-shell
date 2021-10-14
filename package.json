@@ -38,7 +38,6 @@
     "piral-cli-webpack": "^0.13.2",
     "typescript": "latest",
     "piral": "^0.13.2",
-    "piral-auth": "^0.13.9",
     "piral-containers": "^0.13.2",
     "@dbeining/react-atom": "4.1.21",
     "@libre/atom": "1.3.3",

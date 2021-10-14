@@ -2,7 +2,7 @@ if (process.env.NODE_ENV === 'test') {
   // behavior for the test environment, we'll try to make it work
 
   if (typeof window !== 'undefined') {
-    require('.//index.85d959.js');
+    require('.//index.5f9de3.js');
     const ctx = window['dbg:piral'];
     const dependencies = (ctx && ctx.pilets && ctx.pilets.getDependencies({})) || {};
     module.exports = dependencies['app-shell'] || {};

@@ -566,7 +566,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "* {\n  box-sizing: border-box;\n  font-family: \"Helvetica Neue\", Arial, sans-serif;\n}\n\naside {\n  border-top: 1px solid gray;\n  padding-top: 20px;\n}\n\ndl {\n  display: grid;\n  grid-column-gap: 15px;\n  grid-row-gap: 2px;\n  grid-template-columns: 2fr 1fr;\n  max-width: 300px;\n}\n\ndt {\n  text-align: right;\n}\n\ndd {\n  margin: 0;\n}\n\n#app {\n  display: grid;\n  grid-column-gap: 20px;\n  grid-gap: 20px;\n  grid-row-gap: 10px;\n  margin: 20px auto;\n  min-width: 500px;\n}\n\n#menu li{\n  display: inline-block;\n  margin-right: 12px;\n}\n\n@media only screen and (max-width: 999px) {\n  #app {\n    grid-template-areas:\n      \"menu menu\"\n      \"store basket\"\n      \"image name\"\n      \"image options\"\n      \"image buy\"\n      \"reco reco\";\n    grid-template-columns: 4fr 3fr;\n  }\n}\n\n@media only screen and (min-width: 1000px) {\n  #app {\n    grid-template-areas:\n      \"menu menu menu\"\n      \"store basket  reco\"\n      \"image name    reco\"\n      \"image options reco\"\n      \"image buy     reco\";\n    grid-template-columns: 4fr 3fr 200px;\n    width: 1000px;\n  }\n}\n\n#store {\n  font-weight: 400;\n  grid-area: store;\n  margin-top: 5px;\n}\n\n#basket {\n  align-self: baseline;\n  grid-area: basket;\n  justify-self: end;\n  margin-top: 11px;\n}\n\n#basket .empty,\n#basket .filled {\n  border-radius: 5px;\n  color: white;\n  padding: 5px 10px;\n}\n\n#basket .empty {\n  background-color: gray;\n}\n\n#basket .filled {\n  background-color: seagreen;\n}\n\n#image {\n  grid-area: image;\n  width: 100%;\n}\n\n#image > div {\n  padding-top: 100%;\n  position: relative;\n}\n\n#image img {\n  bottom: 0;\n  left: 0;\n  max-width: 100%;\n  position: absolute;\n  right: 0;\n  top: 0;\n}\n\n#name {\n  font-weight: 400;\n  grid-area: name;\n  height: 3em;\n}\n\n#name small {\n  font-size: 1em;\n  font-weight: 200;\n}\n\n#options {\n  align-self: center;\n  display: flex;\n  grid-area: options;\n}\n\n#options button {\n  border: none;\n  border-bottom: 2px solid white;\n  cursor: pointer;\n  display: block;\n  margin: 2px;\n  outline: none;\n  padding: 0;\n}\n\n#options button.active,\n#options button:hover {\n  border-bottom-color: seagreen;\n}\n\n#options img {\n  display: block;\n  max-width: 100%;\n}\n\n#buy {\n  align-self: center;\n  grid-area: buy;\n}\n\n#buy button {\n  background: none;\n  border: 1px solid gray;\n  border-radius: 20px;\n  cursor: pointer;\n  display: block;\n  font-size: 20px;\n  outline: none;\n  padding: 20px;\n  width: 100%;\n}\n\n#buy button:hover {\n  border-color: black;\n}\n\n#buy button:active {\n  border-color: seagreen;\n}\n\n#reco {\n  grid-area: reco;\n}\n\n@media only screen and (max-width: 999px) {\n  #reco {\n    align-items: center;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-around;\n    margin-top: 20px;\n    padding-top: 20px;\n  }\n}\n\n@media only screen and (min-width: 1000px) {\n  #reco {\n    justify-content: stretch;\n    text-align: center;\n    width: 100%;\n  }\n}\n\n#reco h3 {\n  font-weight: 400;\n}\n\n#reco img {\n  display: inline-block;\n  height: 180px;\n  width: 180px;\n}\n\n#app {\n  outline: 3px dashed orangered;\n  padding: 15px;\n}\n\n.green-recos {\n  display: block;\n  outline: 3px dashed forestgreen;\n  width: 100%;\n}\n\n.blue-basket {\n  display: block;\n  outline: 3px dashed royalblue;\n  padding: 5px;\n}\n\n.blue-buy {\n  display: block;\n  outline: 3px dashed royalblue;\n  padding: 5px;\n}\n\n.black-recos {\n  display: block;\n  outline: 3px dashed black;\n  width: 100%;\n}\n\n.yellow-recos {\n  display: block;\n  outline: 3px dashed gold;\n  width: 100%;\n}\n", "",{"version":3,"sources":["webpack://./src/page.css"],"names":[],"mappings":"AAAA;EACE,sBAAsB;EACtB,gDAAgD;AAClD;;AAEA;EACE,0BAA0B;EAC1B,iBAAiB;AACnB;;AAEA;EACE,aAAa;EACb,qBAAqB;EACrB,iBAAiB;EACjB,8BAA8B;EAC9B,gBAAgB;AAClB;;AAEA;EACE,iBAAiB;AACnB;;AAEA;EACE,SAAS;AACX;;AAEA;EACE,aAAa;EACb,qBAAqB;EACrB,cAAc;EACd,kBAAkB;EAClB,iBAAiB;EACjB,gBAAgB;AAClB;;AAEA;EACE,qBAAqB;EACrB,kBAAkB;AACpB;;AAEA;EACE;IACE;;;;;;iBAMa;IACb,8BAA8B;EAChC;AACF;;AAEA;EACE;IACE;;;;;0BAKsB;IACtB,oCAAoC;IACpC,aAAa;EACf;AACF;;AAEA;EACE,gBAAgB;EAChB,gBAAgB;EAChB,eAAe;AACjB;;AAEA;EACE,oBAAoB;EACpB,iBAAiB;EACjB,iBAAiB;EACjB,gBAAgB;AAClB;;AAEA;;EAEE,kBAAkB;EAClB,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,0BAA0B;AAC5B;;AAEA;EACE,gBAAgB;EAChB,WAAW;AACb;;AAEA;EACE,iBAAiB;EACjB,kBAAkB;AACpB;;AAEA;EACE,SAAS;EACT,OAAO;EACP,eAAe;EACf,kBAAkB;EAClB,QAAQ;EACR,MAAM;AACR;;AAEA;EACE,gBAAgB;EAChB,eAAe;EACf,WAAW;AACb;;AAEA;EACE,cAAc;EACd,gBAAgB;AAClB;;AAEA;EACE,kBAAkB;EAClB,aAAa;EACb,kBAAkB;AACpB;;AAEA;EACE,YAAY;EACZ,8BAA8B;EAC9B,eAAe;EACf,cAAc;EACd,WAAW;EACX,aAAa;EACb,UAAU;AACZ;;AAEA;;EAEE,6BAA6B;AAC/B;;AAEA;EACE,cAAc;EACd,eAAe;AACjB;;AAEA;EACE,kBAAkB;EAClB,cAAc;AAChB;;AAEA;EACE,gBAAgB;EAChB,sBAAsB;EACtB,mBAAmB;EACnB,eAAe;EACf,cAAc;EACd,eAAe;EACf,aAAa;EACb,aAAa;EACb,WAAW;AACb;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE;IACE,mBAAmB;IACnB,aAAa;IACb,eAAe;IACf,6BAA6B;IAC7B,gBAAgB;IAChB,iBAAiB;EACnB;AACF;;AAEA;EACE;IACE,wBAAwB;IACxB,kBAAkB;IAClB,WAAW;EACb;AACF;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,qBAAqB;EACrB,aAAa;EACb,YAAY;AACd;;AAEA;EACE,6BAA6B;EAC7B,aAAa;AACf;;AAEA;EACE,cAAc;EACd,+BAA+B;EAC/B,WAAW;AACb;;AAEA;EACE,cAAc;EACd,6BAA6B;EAC7B,YAAY;AACd;;AAEA;EACE,cAAc;EACd,6BAA6B;EAC7B,YAAY;AACd;;AAEA;EACE,cAAc;EACd,yBAAyB;EACzB,WAAW;AACb;;AAEA;EACE,cAAc;EACd,wBAAwB;EACxB,WAAW;AACb","sourcesContent":["* {\n  box-sizing: border-box;\n  font-family: \"Helvetica Neue\", Arial, sans-serif;\n}\n\naside {\n  border-top: 1px solid gray;\n  padding-top: 20px;\n}\n\ndl {\n  display: grid;\n  grid-column-gap: 15px;\n  grid-row-gap: 2px;\n  grid-template-columns: 2fr 1fr;\n  max-width: 300px;\n}\n\ndt {\n  text-align: right;\n}\n\ndd {\n  margin: 0;\n}\n\n#app {\n  display: grid;\n  grid-column-gap: 20px;\n  grid-gap: 20px;\n  grid-row-gap: 10px;\n  margin: 20px auto;\n  min-width: 500px;\n}\n\n#menu li{\n  display: inline-block;\n  margin-right: 12px;\n}\n\n@media only screen and (max-width: 999px) {\n  #app {\n    grid-template-areas:\n      \"menu menu\"\n      \"store basket\"\n      \"image name\"\n      \"image options\"\n      \"image buy\"\n      \"reco reco\";\n    grid-template-columns: 4fr 3fr;\n  }\n}\n\n@media only screen and (min-width: 1000px) {\n  #app {\n    grid-template-areas:\n      \"menu menu menu\"\n      \"store basket  reco\"\n      \"image name    reco\"\n      \"image options reco\"\n      \"image buy     reco\";\n    grid-template-columns: 4fr 3fr 200px;\n    width: 1000px;\n  }\n}\n\n#store {\n  font-weight: 400;\n  grid-area: store;\n  margin-top: 5px;\n}\n\n#basket {\n  align-self: baseline;\n  grid-area: basket;\n  justify-self: end;\n  margin-top: 11px;\n}\n\n#basket .empty,\n#basket .filled {\n  border-radius: 5px;\n  color: white;\n  padding: 5px 10px;\n}\n\n#basket .empty {\n  background-color: gray;\n}\n\n#basket .filled {\n  background-color: seagreen;\n}\n\n#image {\n  grid-area: image;\n  width: 100%;\n}\n\n#image > div {\n  padding-top: 100%;\n  position: relative;\n}\n\n#image img {\n  bottom: 0;\n  left: 0;\n  max-width: 100%;\n  position: absolute;\n  right: 0;\n  top: 0;\n}\n\n#name {\n  font-weight: 400;\n  grid-area: name;\n  height: 3em;\n}\n\n#name small {\n  font-size: 1em;\n  font-weight: 200;\n}\n\n#options {\n  align-self: center;\n  display: flex;\n  grid-area: options;\n}\n\n#options button {\n  border: none;\n  border-bottom: 2px solid white;\n  cursor: pointer;\n  display: block;\n  margin: 2px;\n  outline: none;\n  padding: 0;\n}\n\n#options button.active,\n#options button:hover {\n  border-bottom-color: seagreen;\n}\n\n#options img {\n  display: block;\n  max-width: 100%;\n}\n\n#buy {\n  align-self: center;\n  grid-area: buy;\n}\n\n#buy button {\n  background: none;\n  border: 1px solid gray;\n  border-radius: 20px;\n  cursor: pointer;\n  display: block;\n  font-size: 20px;\n  outline: none;\n  padding: 20px;\n  width: 100%;\n}\n\n#buy button:hover {\n  border-color: black;\n}\n\n#buy button:active {\n  border-color: seagreen;\n}\n\n#reco {\n  grid-area: reco;\n}\n\n@media only screen and (max-width: 999px) {\n  #reco {\n    align-items: center;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-around;\n    margin-top: 20px;\n    padding-top: 20px;\n  }\n}\n\n@media only screen and (min-width: 1000px) {\n  #reco {\n    justify-content: stretch;\n    text-align: center;\n    width: 100%;\n  }\n}\n\n#reco h3 {\n  font-weight: 400;\n}\n\n#reco img {\n  display: inline-block;\n  height: 180px;\n  width: 180px;\n}\n\n#app {\n  outline: 3px dashed orangered;\n  padding: 15px;\n}\n\n.green-recos {\n  display: block;\n  outline: 3px dashed forestgreen;\n  width: 100%;\n}\n\n.blue-basket {\n  display: block;\n  outline: 3px dashed royalblue;\n  padding: 5px;\n}\n\n.blue-buy {\n  display: block;\n  outline: 3px dashed royalblue;\n  padding: 5px;\n}\n\n.black-recos {\n  display: block;\n  outline: 3px dashed black;\n  width: 100%;\n}\n\n.yellow-recos {\n  display: block;\n  outline: 3px dashed gold;\n  width: 100%;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, "* {\n  box-sizing: border-box;\n  font-family: \"Helvetica Neue\", Arial, sans-serif;\n}\n\naside {\n  border-top: 1px solid gray;\n  padding-top: 20px;\n}\n\ndl {\n  display: grid;\n  grid-column-gap: 15px;\n  grid-row-gap: 2px;\n  grid-template-columns: 2fr 1fr;\n  max-width: 300px;\n}\n\ndt {\n  text-align: right;\n}\n\ndd {\n  margin: 0;\n}\n\n.main-layout {\n  display: grid;\n  grid-column-gap: 20px;\n  grid-gap: 20px;\n  grid-row-gap: 10px;\n  margin: 20px auto;\n  min-width: 500px;\n}\n\n#nav-menu {\n  width: 100%;\n  display: flex;\n  padding: 12px 100px 12px 100px;\n  border-radius: 6px;\n  border: 1px solid blueviolet;\n  justify-content: space-between;\n}\n\n#menu li{\n  display: inline-block;\n  margin-right: 12px;\n}\n\n#login-dialog {\n  width: 300px;\n  height: auto;\n  border-radius: 6px;\n  padding: 12px;\n  margin: 0 auto;\n  display: flex;\n  flex-direction: column;\n  border: 1px solid blueviolet;\n}\n\n#login-dialog * {\n  margin: 8px;\n}\n\n@media only screen and (max-width: 999px) {\n  .main-layout {\n    grid-template-areas:\n      \"menu menu\"\n      \"store basket\"\n      \"image name\"\n      \"image options\"\n      \"image buy\"\n      \"reco reco\";\n    grid-template-columns: 4fr 3fr;\n  }\n}\n\n@media only screen and (min-width: 1000px) {\n  .main-layout {\n    grid-template-areas:\n      \"menu menu menu\"\n      \"store basket  reco\"\n      \"image name    reco\"\n      \"image options reco\"\n      \"image buy     reco\";\n    grid-template-columns: 4fr 3fr 200px;\n    width: 1000px;\n  }\n}\n\n#store {\n  font-weight: 400;\n  grid-area: store;\n  margin-top: 5px;\n}\n\n#basket {\n  align-self: baseline;\n  grid-area: basket;\n  justify-self: end;\n  margin-top: 11px;\n}\n\n#basket .empty,\n#basket .filled {\n  border-radius: 5px;\n  color: white;\n  padding: 5px 10px;\n}\n\n#basket .empty {\n  background-color: gray;\n}\n\n#basket .filled {\n  background-color: seagreen;\n}\n\n#image {\n  grid-area: image;\n  width: 100%;\n}\n\n#image > div {\n  padding-top: 100%;\n  position: relative;\n}\n\n#image img {\n  bottom: 0;\n  left: 0;\n  max-width: 100%;\n  position: absolute;\n  right: 0;\n  top: 0;\n}\n\n#name {\n  font-weight: 400;\n  grid-area: name;\n  height: 3em;\n}\n\n#name small {\n  font-size: 1em;\n  font-weight: 200;\n}\n\n#options {\n  align-self: center;\n  display: flex;\n  grid-area: options;\n}\n\n#options button {\n  border: none;\n  border-bottom: 2px solid white;\n  cursor: pointer;\n  display: block;\n  margin: 2px;\n  outline: none;\n  padding: 0;\n}\n\n#options button.active,\n#options button:hover {\n  border-bottom-color: seagreen;\n}\n\n#options img {\n  display: block;\n  max-width: 100%;\n}\n\n#buy {\n  align-self: center;\n  grid-area: buy;\n}\n\n#buy button {\n  background: none;\n  border: 1px solid gray;\n  border-radius: 20px;\n  cursor: pointer;\n  display: block;\n  font-size: 20px;\n  outline: none;\n  padding: 20px;\n  width: 100%;\n}\n\n#buy button:hover {\n  border-color: black;\n}\n\n#buy button:active {\n  border-color: seagreen;\n}\n\n#reco {\n  grid-area: reco;\n}\n\n@media only screen and (max-width: 999px) {\n  #reco {\n    align-items: center;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-around;\n    margin-top: 20px;\n    padding-top: 20px;\n  }\n}\n\n@media only screen and (min-width: 1000px) {\n  #reco {\n    justify-content: stretch;\n    text-align: center;\n    width: 100%;\n  }\n}\n\n#reco h3 {\n  font-weight: 400;\n}\n\n#reco img {\n  display: inline-block;\n  height: 180px;\n  width: 180px;\n}\n\n#red-layout-color {\n  outline: 3px dashed orangered;\n  padding: 15px;\n}\n\n.royalblue-border {\n  border: 1px solid blueviolet;\n  padding: 12px;\n}\n\n.green-recos {\n  display: block;\n  outline: 3px dashed forestgreen;\n  width: 100%;\n}\n\n.blue-basket {\n  display: block;\n  outline: 3px dashed royalblue;\n  padding: 5px;\n}\n\n.blue-buy {\n  display: block;\n  outline: 3px dashed royalblue;\n  padding: 5px;\n}\n\n.black-recos {\n  display: block;\n  outline: 3px dashed black;\n  width: 100%;\n}\n\n.yellow-recos {\n  display: block;\n  outline: 3px dashed gold;\n  width: 100%;\n}\n", "",{"version":3,"sources":["webpack://./src/page.css"],"names":[],"mappings":"AAAA;EACE,sBAAsB;EACtB,gDAAgD;AAClD;;AAEA;EACE,0BAA0B;EAC1B,iBAAiB;AACnB;;AAEA;EACE,aAAa;EACb,qBAAqB;EACrB,iBAAiB;EACjB,8BAA8B;EAC9B,gBAAgB;AAClB;;AAEA;EACE,iBAAiB;AACnB;;AAEA;EACE,SAAS;AACX;;AAEA;EACE,aAAa;EACb,qBAAqB;EACrB,cAAc;EACd,kBAAkB;EAClB,iBAAiB;EACjB,gBAAgB;AAClB;;AAEA;EACE,WAAW;EACX,aAAa;EACb,8BAA8B;EAC9B,kBAAkB;EAClB,4BAA4B;EAC5B,8BAA8B;AAChC;;AAEA;EACE,qBAAqB;EACrB,kBAAkB;AACpB;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,kBAAkB;EAClB,aAAa;EACb,cAAc;EACd,aAAa;EACb,sBAAsB;EACtB,4BAA4B;AAC9B;;AAEA;EACE,WAAW;AACb;;AAEA;EACE;IACE;;;;;;iBAMa;IACb,8BAA8B;EAChC;AACF;;AAEA;EACE;IACE;;;;;0BAKsB;IACtB,oCAAoC;IACpC,aAAa;EACf;AACF;;AAEA;EACE,gBAAgB;EAChB,gBAAgB;EAChB,eAAe;AACjB;;AAEA;EACE,oBAAoB;EACpB,iBAAiB;EACjB,iBAAiB;EACjB,gBAAgB;AAClB;;AAEA;;EAEE,kBAAkB;EAClB,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,0BAA0B;AAC5B;;AAEA;EACE,gBAAgB;EAChB,WAAW;AACb;;AAEA;EACE,iBAAiB;EACjB,kBAAkB;AACpB;;AAEA;EACE,SAAS;EACT,OAAO;EACP,eAAe;EACf,kBAAkB;EAClB,QAAQ;EACR,MAAM;AACR;;AAEA;EACE,gBAAgB;EAChB,eAAe;EACf,WAAW;AACb;;AAEA;EACE,cAAc;EACd,gBAAgB;AAClB;;AAEA;EACE,kBAAkB;EAClB,aAAa;EACb,kBAAkB;AACpB;;AAEA;EACE,YAAY;EACZ,8BAA8B;EAC9B,eAAe;EACf,cAAc;EACd,WAAW;EACX,aAAa;EACb,UAAU;AACZ;;AAEA;;EAEE,6BAA6B;AAC/B;;AAEA;EACE,cAAc;EACd,eAAe;AACjB;;AAEA;EACE,kBAAkB;EAClB,cAAc;AAChB;;AAEA;EACE,gBAAgB;EAChB,sBAAsB;EACtB,mBAAmB;EACnB,eAAe;EACf,cAAc;EACd,eAAe;EACf,aAAa;EACb,aAAa;EACb,WAAW;AACb;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE;IACE,mBAAmB;IACnB,aAAa;IACb,eAAe;IACf,6BAA6B;IAC7B,gBAAgB;IAChB,iBAAiB;EACnB;AACF;;AAEA;EACE;IACE,wBAAwB;IACxB,kBAAkB;IAClB,WAAW;EACb;AACF;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,qBAAqB;EACrB,aAAa;EACb,YAAY;AACd;;AAEA;EACE,6BAA6B;EAC7B,aAAa;AACf;;AAEA;EACE,4BAA4B;EAC5B,aAAa;AACf;;AAEA;EACE,cAAc;EACd,+BAA+B;EAC/B,WAAW;AACb;;AAEA;EACE,cAAc;EACd,6BAA6B;EAC7B,YAAY;AACd;;AAEA;EACE,cAAc;EACd,6BAA6B;EAC7B,YAAY;AACd;;AAEA;EACE,cAAc;EACd,yBAAyB;EACzB,WAAW;AACb;;AAEA;EACE,cAAc;EACd,wBAAwB;EACxB,WAAW;AACb","sourcesContent":["* {\n  box-sizing: border-box;\n  font-family: \"Helvetica Neue\", Arial, sans-serif;\n}\n\naside {\n  border-top: 1px solid gray;\n  padding-top: 20px;\n}\n\ndl {\n  display: grid;\n  grid-column-gap: 15px;\n  grid-row-gap: 2px;\n  grid-template-columns: 2fr 1fr;\n  max-width: 300px;\n}\n\ndt {\n  text-align: right;\n}\n\ndd {\n  margin: 0;\n}\n\n.main-layout {\n  display: grid;\n  grid-column-gap: 20px;\n  grid-gap: 20px;\n  grid-row-gap: 10px;\n  margin: 20px auto;\n  min-width: 500px;\n}\n\n#nav-menu {\n  width: 100%;\n  display: flex;\n  padding: 12px 100px 12px 100px;\n  border-radius: 6px;\n  border: 1px solid blueviolet;\n  justify-content: space-between;\n}\n\n#menu li{\n  display: inline-block;\n  margin-right: 12px;\n}\n\n#login-dialog {\n  width: 300px;\n  height: auto;\n  border-radius: 6px;\n  padding: 12px;\n  margin: 0 auto;\n  display: flex;\n  flex-direction: column;\n  border: 1px solid blueviolet;\n}\n\n#login-dialog * {\n  margin: 8px;\n}\n\n@media only screen and (max-width: 999px) {\n  .main-layout {\n    grid-template-areas:\n      \"menu menu\"\n      \"store basket\"\n      \"image name\"\n      \"image options\"\n      \"image buy\"\n      \"reco reco\";\n    grid-template-columns: 4fr 3fr;\n  }\n}\n\n@media only screen and (min-width: 1000px) {\n  .main-layout {\n    grid-template-areas:\n      \"menu menu menu\"\n      \"store basket  reco\"\n      \"image name    reco\"\n      \"image options reco\"\n      \"image buy     reco\";\n    grid-template-columns: 4fr 3fr 200px;\n    width: 1000px;\n  }\n}\n\n#store {\n  font-weight: 400;\n  grid-area: store;\n  margin-top: 5px;\n}\n\n#basket {\n  align-self: baseline;\n  grid-area: basket;\n  justify-self: end;\n  margin-top: 11px;\n}\n\n#basket .empty,\n#basket .filled {\n  border-radius: 5px;\n  color: white;\n  padding: 5px 10px;\n}\n\n#basket .empty {\n  background-color: gray;\n}\n\n#basket .filled {\n  background-color: seagreen;\n}\n\n#image {\n  grid-area: image;\n  width: 100%;\n}\n\n#image > div {\n  padding-top: 100%;\n  position: relative;\n}\n\n#image img {\n  bottom: 0;\n  left: 0;\n  max-width: 100%;\n  position: absolute;\n  right: 0;\n  top: 0;\n}\n\n#name {\n  font-weight: 400;\n  grid-area: name;\n  height: 3em;\n}\n\n#name small {\n  font-size: 1em;\n  font-weight: 200;\n}\n\n#options {\n  align-self: center;\n  display: flex;\n  grid-area: options;\n}\n\n#options button {\n  border: none;\n  border-bottom: 2px solid white;\n  cursor: pointer;\n  display: block;\n  margin: 2px;\n  outline: none;\n  padding: 0;\n}\n\n#options button.active,\n#options button:hover {\n  border-bottom-color: seagreen;\n}\n\n#options img {\n  display: block;\n  max-width: 100%;\n}\n\n#buy {\n  align-self: center;\n  grid-area: buy;\n}\n\n#buy button {\n  background: none;\n  border: 1px solid gray;\n  border-radius: 20px;\n  cursor: pointer;\n  display: block;\n  font-size: 20px;\n  outline: none;\n  padding: 20px;\n  width: 100%;\n}\n\n#buy button:hover {\n  border-color: black;\n}\n\n#buy button:active {\n  border-color: seagreen;\n}\n\n#reco {\n  grid-area: reco;\n}\n\n@media only screen and (max-width: 999px) {\n  #reco {\n    align-items: center;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-around;\n    margin-top: 20px;\n    padding-top: 20px;\n  }\n}\n\n@media only screen and (min-width: 1000px) {\n  #reco {\n    justify-content: stretch;\n    text-align: center;\n    width: 100%;\n  }\n}\n\n#reco h3 {\n  font-weight: 400;\n}\n\n#reco img {\n  display: inline-block;\n  height: 180px;\n  width: 180px;\n}\n\n#red-layout-color {\n  outline: 3px dashed orangered;\n  padding: 15px;\n}\n\n.royalblue-border {\n  border: 1px solid blueviolet;\n  padding: 12px;\n}\n\n.green-recos {\n  display: block;\n  outline: 3px dashed forestgreen;\n  width: 100%;\n}\n\n.blue-basket {\n  display: block;\n  outline: 3px dashed royalblue;\n  padding: 5px;\n}\n\n.blue-buy {\n  display: block;\n  outline: 3px dashed royalblue;\n  padding: 5px;\n}\n\n.black-recos {\n  display: block;\n  outline: 3px dashed black;\n  width: 100%;\n}\n\n.yellow-recos {\n  display: block;\n  outline: 3px dashed gold;\n  width: 100%;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -6569,7 +6569,7 @@ function installPiralDebug(options) {
             context,
         },
         build: {
-            date: "2021-10-14T08:43:30.255Z",
+            date: "2021-10-14T08:57:04.059Z",
             cli: "0.13.9",
             compat: "0.13",
         },
@@ -42114,15 +42114,9 @@ module.exports = g;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var piral__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! piral */ "./node_modules/piral/esm/index.js");
-/* harmony import */ var piral_containers__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! piral-containers */ "./node_modules/piral-containers/esm/index.js");
-
-
+/* harmony import */ var piral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! piral */ "./node_modules/piral/esm/index.js");
+/* harmony import */ var piral_containers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! piral-containers */ "./node_modules/piral-containers/esm/index.js");
+/* harmony import */ var _layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./layout */ "./src/layout.tsx");
 
 
 
@@ -42131,36 +42125,190 @@ function createCustomeApi() {
   return function (context) {
     return function (api, meta) {
       return {
-        mockTestData: 'mock-test-data'
+        mockTestData: 'mock-test-data',
+        getUser: function getUser() {
+          var _useActions = Object(piral__WEBPACK_IMPORTED_MODULE_0__["useActions"])(),
+              readState = _useActions.readState,
+              dispatch = _useActions.dispatch;
+
+          var userObj = readState(function (m) {
+            return m.app.user;
+          });
+          return userObj;
+        }
       };
     };
   };
-}
+} // app-shell share function
 
-var piral = Object(piral__WEBPACK_IMPORTED_MODULE_3__["createPiral"])({
+
+var setUser = function setUser(ctx, username) {
+  var user = {
+    username: username
+  };
+  ctx.dispatch(function (state) {
+    return Object.assign(Object.assign({}, state), {
+      app: Object.assign(Object.assign({}, state.app), {
+        user: user
+      })
+    });
+  });
+};
+
+var getUser = function getUser(ctx) {
+  var _useActions2 = Object(piral__WEBPACK_IMPORTED_MODULE_0__["useActions"])(),
+      readState = _useActions2.readState;
+
+  var userObj = readState(function (m) {
+    return m.app.user;
+  });
+  return userObj;
+};
+
+var piral = Object(piral__WEBPACK_IMPORTED_MODULE_0__["renderInstance"])({
+  layout: _layout__WEBPACK_IMPORTED_MODULE_2__["layout"],
+  actions: {
+    setUser: setUser,
+    getUser: getUser
+  },
+  plugins: [createCustomeApi(), Object(piral_containers__WEBPACK_IMPORTED_MODULE_1__["createContainersApi"])()],
+  extendApi: [Object(piral_containers__WEBPACK_IMPORTED_MODULE_1__["createContainersApi"])()],
   requestPilets: function requestPilets() {
     return fetch('http://localhost:9000/api/v1/pilet').then(function (res) {
       return res.json();
     }).then(function (res) {
       return res.items;
     });
-  },
-  plugins: [createCustomeApi(), Object(piral_containers__WEBPACK_IMPORTED_MODULE_4__["createContainersApi"])()],
-  extendApi: [Object(piral_containers__WEBPACK_IMPORTED_MODULE_4__["createContainersApi"])()]
+  }
 });
 piral.root.setData('app-shell-set-data', 'APP SHELL set data.');
-var app = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](piral__WEBPACK_IMPORTED_MODULE_3__["Piral"], {
-  instance: piral
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](piral__WEBPACK_IMPORTED_MODULE_3__["SetRoute"], {
-  path: "/",
-  component: function component() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Redirect"], {
-      from: "/",
-      to: "/products"
-    });
+
+/***/ }),
+
+/***/ "./src/layout.tsx":
+/*!************************!*\
+  !*** ./src/layout.tsx ***!
+  \************************/
+/*! exports provided: layout */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "layout", function() { return layout; });
+/* harmony import */ var piral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! piral */ "./node_modules/piral/esm/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./utils */ "./src/utils.js");
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+
+
+
+
+var SimpleWrapper = function SimpleWrapper(_ref) {
+  var children = _ref.children;
+
+  var _React$useState = react__WEBPACK_IMPORTED_MODULE_2__["useState"](""),
+      _React$useState2 = _slicedToArray(_React$useState, 2),
+      username = _React$useState2[0],
+      setUsername = _React$useState2[1];
+
+  var user = Object(_utils__WEBPACK_IMPORTED_MODULE_3__["getAuth"])();
+
+  var _useActions = Object(piral__WEBPACK_IMPORTED_MODULE_0__["useActions"])(),
+      setUser = _useActions.setUser;
+
+  if (!user) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", {
+      id: "login-dialog"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", null, "Please login."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("input", {
+      type: "text",
+      name: "username",
+      value: username,
+      onChange: function onChange(event) {
+        return setUsername(event.target.value);
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("button", {
+      onClick: function onClick() {
+        return setUser(username);
+      }
+    }, "Login"));
+  } else {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](react__WEBPACK_IMPORTED_MODULE_2__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](piral__WEBPACK_IMPORTED_MODULE_0__["SetRoute"], {
+      path: "/",
+      component: function component() {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Redirect"], {
+          from: "/",
+          to: "/products"
+        });
+      }
+    }), children);
   }
-}));
-Object(react_dom__WEBPACK_IMPORTED_MODULE_1__["render"])(app, document.querySelector('#app'));
+};
+
+var layout = {
+  ErrorInfo: function ErrorInfo(props) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("h1", null, "Error"));
+  },
+  Layout: function Layout(_ref2) {
+    var children = _ref2.children;
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](SimpleWrapper, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](piral__WEBPACK_IMPORTED_MODULE_0__["Menu"], {
+      type: "general"
+    }), children);
+  },
+  MenuContainer: function MenuContainer(_ref3) {
+    var children = _ref3.children;
+
+    var _React$useState3 = react__WEBPACK_IMPORTED_MODULE_2__["useState"](""),
+        _React$useState4 = _slicedToArray(_React$useState3, 2),
+        username = _React$useState4[0],
+        setUsername = _React$useState4[1];
+
+    var _useActions2 = Object(piral__WEBPACK_IMPORTED_MODULE_0__["useActions"])(),
+        setUser = _useActions2.setUser,
+        getUser = _useActions2.getUser;
+
+    var user = getUser();
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("nav", {
+      id: "nav-menu",
+      className: "navbar navbar-light navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", {
+      id: "menu"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+      to: "/"
+    }, "Home")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+      to: "/yellow"
+    }, "Shared component (extension)")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"](react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+      to: "/state"
+    }, "State Management"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("h3", null, "Welcome: ", user['username']), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("label", {
+      htmlFor: "username"
+    }, "Chnage your name:", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("input", {
+      type: "text",
+      id: "username",
+      name: "username",
+      value: username,
+      onChange: function onChange(event) {
+        return setUsername(event.target.value);
+      }
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("button", {
+      onClick: function onClick() {
+        return setUser(username);
+      }
+    }, "Change!!"))));
+  }
+};
 
 /***/ }),
 
@@ -42193,6 +42341,30 @@ module.exports = content.locals || {};
 
 /***/ }),
 
+/***/ "./src/utils.js":
+/*!**********************!*\
+  !*** ./src/utils.js ***!
+  \**********************/
+/*! exports provided: getAuth */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getAuth", function() { return getAuth; });
+/* harmony import */ var piral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! piral */ "./node_modules/piral/esm/index.js");
+
+var getAuth = function getAuth() {
+  var _useActions = Object(piral__WEBPACK_IMPORTED_MODULE_0__["useActions"])(),
+      readState = _useActions.readState;
+
+  var user = readState(function (m) {
+    return m.app.user;
+  });
+  return user;
+};
+
+/***/ }),
+
 /***/ 0:
 /*!********************************************!*\
   !*** multi ./src/page.css ./src/index.tsx ***!
@@ -42207,4 +42379,4 @@ module.exports = __webpack_require__(/*! /Users/sakayaparp.pongsombut/Desktop/pr
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.ab4747.js.map
+//# sourceMappingURL=index.5f9de3.js.map
